@@ -55,3 +55,7 @@ SpotSchema.virtual('thumbnail_url').get(function() {
   }
 }
 ```
+
+### **Couldn't start project on Android: could not install *smartsocket* listener:**
+
+- Defina o caminho do adb.exe que está na Genymobile\Genymotion\tools (exemplo dado através de sistema windows) em um PATH nas variáveis de ambiente.
